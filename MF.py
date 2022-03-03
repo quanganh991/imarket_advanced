@@ -411,7 +411,7 @@ if __name__ == '__main__':
 
     # # 1. chuẩn hoá dựa trên user:
     rs = MF(Y_data=rate_train, K=10, lam=.1, print_every=10,
-            learning_rate=0.75, max_iter=100, user_based=1)
+            learning_rate=0.77, max_iter=100, user_based=1)
     '''
     K << M,N
     lam = hệ số lamda trong công thức hàm mất mát
